@@ -12615,7 +12615,6 @@ a.theme-link:hover {
 @media (max-width: 340px){
 .content_btn h5{font-size:12px;}
 }
-.content_btn{max-width:400px;}
 .content_btn a{margin:0 25px 12px 0;background-color:#000;min-width:158px;display:inline-block;padding:8px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
 @media (max-width: 720px){
 .content_btn a{width:calc(100% - 16px);min-width:inherit;margin:0;max-width:140px;margin-bottom:10px;}
