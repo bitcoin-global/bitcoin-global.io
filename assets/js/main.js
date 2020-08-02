@@ -1,6 +1,6 @@
 // Typewriter
 const instance = new Typewriter('#typewriter', {
-    strings: ['Bitcoin Global is a Bitcoin hard fork implementing smaller blocks'],
+    strings: ['everyone', 'businesses', 'day-to-day users', 'miners'],
     autoStart: true,
     loop: true
 });
@@ -13,23 +13,15 @@ $(document).ready(function() {
     /* OwlCarousel2 Plugin */
     /* Ref: https://owlcarousel2.github.io/OwlCarousel2/ */
     $('.projects-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
+        loop: false,
+        margin: 0,
         nav: false,
-        autoplay: true,
+        items: 2,
+        center: false,
+        autoplay: false,
         autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 2
-            },
-            992: {
-                items: 2
-            },
-        }
+        autoplayHoverPause: false,
+        
     });
 
     $('.tech-carousel').owlCarousel({

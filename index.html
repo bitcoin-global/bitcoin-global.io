@@ -3,26 +3,27 @@
 
 <head>
     <title>Bitcoin Global</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.ico">
-    <link rel="canonical" href="//bitcoin-global.io">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="canonical" href="https://bitcoin-global.io">
 
     <!-- Meta SEO -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content=" We present Bitcoin Global - a Bitcoin hard fork - implementing smaller blocks.">
+    <meta name="description" content=" Bitcoin Global - blockchain with sustainability in mind.">
     <meta name="author" content="Bitcoin Global">
     <meta name="HandheldFriendly" content="true" />
     <meta property="og:site_name" content="Bitcoin Global">
     <meta property="og:title" content="Bitcoin Global" />
     <meta property="og:type" content="website">
     <meta property="og:email" content="glob@bitcoin-global.io">
-    <meta property="og:url" content="//bitcoin-global.io" />
-    <meta property="og:image" content="https://bitcoin-global.io/assets/images/logo.png" />
-    <meta property="og:description" content=" We present Bitcoin Global - a Bitcoin hard fork - implementing smaller blocks." />
+    <meta property="og:url" content="https://bitcoin-global.io" />
+    <meta property="og:image" content="assets/images/logo.png" />
+    <meta property="og:description"
+        content=" Bitcoin Global - blockchain with sustainability in mind." />
 
     <!-- Google Font -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
@@ -36,6 +37,7 @@
 
     <!-- FontAwesome JS-->
     <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
 
 </head>
 
@@ -45,41 +47,43 @@
             <div class="container-fluid position-relative">
                 <nav class="navbar navbar-expand-lg">
                     <div class="site-logo">
-                        <a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="assets/images/logo.png" height="92" alt="logo">
+                        <a class="navbar-brand" href="index.html"><img class="logo-icon mr-2"
+                                src="assets/images/logo-empty.png" height="42" alt="logo">
                         </a>
                     </div>
 
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span> </span>
-						<span> </span>
-						<span> </span>
-					</button>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </button>
 
                     <div class="collapse navbar-collapse" id="navigation">
-                        <!--<ul class="social-list list-inline mt-3 mt-lg-0 mb-lg-0 d-flex ml-lg-5 mr-lg-5">
-                            
-                           
-                        </ul>-->
+                        <ul class="social-list list-inline mt-3 mt-lg-0 mb-lg-0 d-flex ml-lg-5 mr-lg-5">
+                            <li class="list-inline-item"><a href="https://github.com/bitcoin-global " target="_blank"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/company/bitcoin-global/"
+                                    target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        </ul>
                         <!--//social-list-->
                         <ul class="navbar-nav ml-lg-auto" id="nav">
                             <li class="nav-item mr-lg-4 current">
-                                <a class="nav-link" href="#home">Intro</a>
+                                <a class="nav-link" href="#home">Home</a>
                             </li>
                             <li class="nav-item mr-lg-4">
-                                <a class="nav-link" href="#about">Features</a>
+                                <a class="nav-link" href="#features">Features</a>
                             </li>
-                            <!--  <li class="nav-item mr-lg-4">
-                                <a class="nav-link" href="#methods">Features</a>
-                            </li>-->
                             <li class="nav-item mr-lg-4">
-                                <a class="nav-link" href="#projects">Team</a>
+                                <a class="nav-link" href="#how-to">How to?</a>
                             </li>
-                            <!-- <li class="nav-item mr-lg-4">
-                                <a class="nav-link" href="#tech">Technology</a>
-                            </li>-->
-                            <!--   <li class="nav-item mr-lg-0">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>-->
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link" href="#roadmap">Roadmap</a>
+                            </li>
+                            <li class="nav-item mr-lg-4">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -90,28 +94,39 @@
         <!--//branding-->
     </header>
     <!--//header-->
-    <br>
-    <br>
+
     <section id="home" class="hero-section py-3 py-md-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-7 pt-3 mb-5 mb-lg-0">
-                    <br>
-
-                    <!--   <h2 class="site-headline font-weight-bold mb-3">BITCOIN GLOBAL
-
-                    </h2>-->
-                    <div class="site-tagline mb-4">Ensuring Increased Degree Of Decentralization Combined With A Sustainable Economic Model For All Chain Participants – <span id="typewriter" class="text-primary font-weight-bold"></span>.</div>
+                <div class="col-12 order-lg-2 col-lg-5 ml-auto text-center d-flex flex-wrap align-items-center">
+                    <img class="hero-figure mx-auto" src="assets/images/logo.png" alt="">
+                </div>
+                <div class="col-12 order-lg-1 mt-5 mt-lg-0 col-lg-6 pt-3 mb-5 mb-lg-0">
+                    <h1 class="site-headline font-weight-bold mb-3">Blockchain with sustainability in mind</h1>
+                    <div class="site-tagline mb-4">Ensuring an increased degree of decentralization combined with a
+                        sustainable economic model for – <span id="typewriter"
+                            class="text-primary font-weight-bold"></span>.</div>
                     <br>
                     <div class="cta-btns mb-lg-3">
-                        <a class="btn btn-primary mr-2 mb-3" href="assets/images/documentation.pdf">Documentation<i
-								class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+                        <div class="content_btn">
+                            <a class="mr-2 mb-3"
+                                href="https://github.com/bitcoin-global/global-electrum/releases/download/4.0.2/electrum-global-4.0.2-setup.exe">
+                                <img src="assets/images/models/icon_button_windows.svg">
+                                <div class="row_content">
+                                    <h6>Get it on</h6>
+                                    <h5>Windows</h5>
+                                </div>
+                            </a>
+                            <a class="mr-2 mb-3"
+                                href="https://github.com/bitcoin-global/global-electrum/releases/download/4.0.2/electrum-global-4.0.2.tar.gz">
+                                <img src="assets/images/models/icon_button_linux.svg">
+                                <div class="row_content">
+                                    <h6>Get it on</h6>
+                                    <h5>Linux OS</h5>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <br>
-                <div class="col-12 col-lg-4 ml-auto text-center">
-                    <img class="hero-figure mx-auto" src="assets/images/models/woman.png" alt="">
                 </div>
             </div>
             <!--//row-->
@@ -119,36 +134,63 @@
     </section>
     <!--//hero-section-->
 
-    <section data-aos-duration="500" data-aos="fade-up" id="about" class="how-to-section py-5">
+    <section id="countdown" class="how-to-section data-section py-4">
         <div class="container">
-            <h3 class="mb-2 text-center font-weight-bold section-title">Features</h3>
-            <div class="mb-5 text-center section-intro">Key aspects of Bitcoin Global</div>
-
-            <center>
-                <div class="cta-btns mb-lg-3">
-                    <a class="btn btn-primary mr-2 mb-3" href="https://github.com/bitcoin-global/bitcoin-global">Bitcoin Global Github<i
-                        class="fas fa-arrow-alt-circle-right ml-2"></i></a></center>
-
-            <!--
-            <nav>
-                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="nav-item col-4 nav-link" id="nav-sectors-tab" data-toggle="tab" href="#nav-sectors" role="tab" aria-controls="nav-sectors" aria-selected="false">Sectors</a>
-                    <a class="nav-item col-4 nav-link active" id="nav-services-tab" data-toggle="tab" href="#nav-services" role="tab" aria-controls="nav-services" aria-selected="true">Services</a>
-                    <a class="nav-item col-4 nav-link" id="nav-industries-tab" data-toggle="tab" href="#nav-industries" role="tab" aria-controls="nav-industries" aria-selected="false">Industries</a>
+            <h3 class="mb-2 text-center font-weight-bold section-title">Countdown</h3>
+            <div class="mb-5 text-center section-intro">Planned project events information</div>
+            <div class="row justify-content-center">
+                <div data-aos-duration="500" data-aos="zoom-in-up" class="item col-3 aos-init aos-animate">
+                    <div class="item-inner rounded p-0">
+                        <h5 class="mb-3 text-center">
+                            <a href="https://testnet.bitcoin-global.io" target="_blank">Testnet</a>
+                        </h5>
+                        <div class="icon-holder text-center mx-auto mb-3">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <!--//icon-holder-->
+                        <h5 class="mb-3 text-center">
+                            Active
+                        </h5>
+                    </div>
+                    <!--//item-inner-->
                 </div>
-            </nav>
- -->
-            <div class="tab-content pt-5 px-sm-0" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-services" role="tabpanel" aria-labelledby="nav-services-tab">
+                <div data-aos-duration="500" data-aos="zoom-in-up" class="item col-3 aos-init aos-animate">
+                    <div class="item-inner rounded p-0">
+                        <h5 class="mb-3 text-center">
+                            <a href="https://mainnet.bitcoin-global.io" target="_blank">Mainnet</a>
+                        </h5>
+                        <div class="icon-holder text-center mx-auto mb-3">
+                            <i class="fas fa-stopwatch"></i>
+                        </div>
+                        <!--//icon-holder-->
+                        <h5 class="mb-3 text-center">
+                            17 August 2020 <br>20:00 CEST
+                        </h5>
+                    </div>
+                    <!--//item-inner-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" data-aos-duration="500" data-aos="fade-up" class="how-to-section py-5">
+        <div class="container">
+            <h3 class="mb-2 text-center font-weight-bold section-title">What's possible?</h3>
+            <div class="mb-5 text-center section-intro">Key features of Bitcoin Global network</div>
+
+            <div class="tab-content px-sm-0" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-services" role="tabpanel"
+                    aria-labelledby="nav-services-tab">
                     <div class="row">
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!--    <i class="fas fa-lightbulb"></i>-->
+                                    <i class="fas fa-lightbulb"></i>
                                 </div>
                                 <!--//icon-holder-->
-                                <h5 class="mb-3">Smaller blocks</h5>
-                                <div>We present Bitcoin Global, which is fulfilling the original Bitcoin promise of being truly decentralized, an aspect made possible - among others - by employing smaller blocks with an optimized size of 400KB.</div>
+                                <h5 class="mb-3">Sustainable</h5>
+                                <div>A network that employs smaller blocks with an optimized size and focuses on
+                                    sustainability.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
@@ -160,11 +202,12 @@
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!--   <i class="fas fa-handshake"></i>-->
+                                    <i class="fas fa-project-diagram"></i>
                                 </div>
                                 <!--//icon-holder-->
-                                <h5 class="mb-3">Truly decentralized</h5>
-                                <div>Bitcoin Global implements a sustainable economic model for all chain participants, ensuring at the same time that decentralization and profitability are maintained. </div>
+                                <h5 class="mb-3">Decentralized</h5>
+                                <div>Maintaining decentralization and profitability through a sustainable economic
+                                    model.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
@@ -176,11 +219,11 @@
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!--  <i class="fas fa-rocket"></i>-->
+                                    <i class="fas fa-rocket"></i>
                                 </div>
                                 <!--//icon-holder-->
-                                <h5 class="mb-3">Economically feasible</h5>
-                                <div>Smaller blocks make it economically more feasible for new adopters to join the network by reducing the costs associated with participating.</div>
+                                <h5 class="mb-3">Feasible</h5>
+                                <div>Reduced costs for new adopters associated with the network participation.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
@@ -192,11 +235,12 @@
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!--    <i class="fas fa-palette"></i>-->
+                                    <i class="fas fa-wifi"></i>
                                 </div>
                                 <!--//icon-holder-->
-                                <h5 class="mb-3">Initial block download</h5>
-                                <div>The smaller block size decreases the comprehensive costs and time for users to perform the initial block download of a full node and maintain synchronization to the network. </div>
+                                <h5 class="mb-3">Connectivity</h5>
+                                <div>Making it easier for users to run full nodes on low bandwidth and low power
+                                    devices.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
@@ -207,408 +251,344 @@
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!--   <i class="fas fa-wrench"></i>-->
+                                    <i class="fas fa-stopwatch"></i>
                                 </div>
                                 <!--//icon-holder-->
-                                <h5 class="mb-3">Low bandwidth devices</h5>
-                                <div>Bitcoin Global potentially makes it feasible for users to run full nodes on mobile phones as well as other low bandwidth and low power devices that have limited bandwidth. </div>
+                                <h5 class="mb-3">Synchronization</h5>
+                                <div>Decreased time to perform the initial block download allows faster synchronization
+                                    to the network.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
                             </div>
                             <!--//item-inner-->
                         </div>
-                        <!--//item-->
-
                         <div class="item col-12 col-md-4 col-lg-4">
                             <div class="item-inner rounded">
                                 <div class="icon-holder text-center mx-auto mb-3">
-                                    <!-- <i class="fas fa-book"></i>-->
+                                    <i class="fas fa-network-wired"></i>
                                 </div>
                                 <!--//icon-holder-->
                                 <h5 class="mb-3">Internet Of Things</h5>
-                                <div>Smaller blocks will make the merger between Bitcoin Global and Internet Of Things easier. This becomes more relevant on very small devices. </div>
+                                <div>Alleviate IoT solutions by utilizing Bitcoin Global network across all platforms
+                                    and devices.</div>
                                 <div class="mt-2">
                                     <a href="#"></a>
                                 </div>
                             </div>
                             <!--//item-inner-->
                         </div>
+                        <!--//item-->
                     </div>
                 </div>
-
-                <center>
-                    <div class="cta-btns mb-lg-3">
-                        <a class="btn btn-primary mr-2 mb-3" href="https://github.com/bitcoin-global/global-stack">Bitcoin Global stack<i
-                            class="fas fa-arrow-alt-circle-right ml-2"></i></a></center>
-                </div>
-                <br>
-                <br>
-                <!-- <center>
-                    <div class="cta-btns mb-lg-3">
-                        <a class="btn btn-primary mr-2 mb-3" href="https://www.dropbox.com/">Bitcoin Global explorer<i
-                            class="fas fa-arrow-alt-circle-right ml-2"></i></a></center>-->
-
-
-                <!--//how-to-section-->
-
-                <section data-aos="zoom-in-left" id="methods" class="delivery-section py-5">
-                    <div class="container">
-                        <!--  <h3 class="mb-2 text-center font-weight-bold section-title">Delivery process</h3>-->
-                        <b><div class="mb-5 text-center section-intro">Since second layer technologies make progress in development and adoption, a decrease in the block size will have no negative capacity-wise effects at all, neither in the short or middle nor in the long term. </div></b>
-
-                        <br>
-
-                        <center>
-                            <h3><b>LAUNCH TIMELINE</b></h3><br>
-                            <div class="cta-btns mb-lg-3">The Bitcoin Global testnet is running from July 20th until July 30th 2020.
-                                <br><br>
-                                <a class="btn btn-primary mr-2 mb-3" href="https://testnet.bitcoin-global.io/">Bitcoin Global public testnet<i
-                                    class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-                            </div><br>
-                            <div class="cta-btns mb-lg-3">
-                                The Bitcoin Global mainnet will be launched on July 31st 2020.<br><br>
-                                <a class="btn btn-primary mr-2 mb-3" href="https://mainnet.bitcoin-global.io/">Bitcoin Global mainnet<i
-                                    class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-                            </div>
-                        </center>
-
-                        <div data-aos-duration="500" data-aos="zoom-in-left" class="row align-items-center">
-                            <div class="col-12 col-md-6 order-md-0">
-                                <div class="nav flex-column" id="features-tabs" role="tablist" aria-orientation="vertical">
-                                    <a class="nav-link active" id="tab-1" data-toggle="pill" href="#tab-content-1" role="tab" aria-controls="tab-1" aria-selected="true">
-                                        <span class="tab-heading"><span class="tab-icon mr-2"><i class="fas fa-tasks"></i></span>Second layer tech</span>
-                                        <span class="tab-heading-desc">Combined with the further progressing development and adoption of second layer tech, Bitcoin Global’s implementation of smaller blocks makes perfect technical and economic sense.</span>
-                                    </a>
-                                    <a class="nav-link active" id="tab-2" data-toggle="pill" href="#tab-content-2" role="tab" aria-controls="tab-2" aria-selected="false">
-                                        <span class="tab-heading"><span class="tab-icon mr-2"><i class="fab fa-codepen"></i></span>Replay protection</span>
-                                        <span class="tab-heading-desc">In order to ensure the safety of the ecosystem, Bitcoin Global has implemented full replay protection, an essential aspect that protects users’ coins from being spent accidentally.<br>
-									
-									</span>
-                                    </a>
-                                    <a class="nav-link active" id="tab-3" data-toggle="pill" href="#tab-content-3" role="tab" aria-controls="tab-3" aria-selected="false">
-                                        <span class="tab-heading"><span class="tab-icon mr-2"><i class="fas fa-code"></i></span>Unique address format</span>
-                                        <span class="tab-heading-desc">Bitcoin Global addresses have a G prefix and Segwit addresses have a GLOB prefix.
-									
-									</span>
-                                    </a>
-                                </div>
-                                <!--//nav-->
-                            </div>
-                            <!--//col-3-->
-                            <!--  <div class="col-12 col-md-6 text-center align-self-center">
-                                <img class="img-fluid col-6 col-md-9 py-5" src="assets/images/models/idea.png" alt="">
-                            </div>-->
-                        </div>
-                        <br>
-                        <center>
-                            <a class="btn btn-primary mr-2 mb-3" href="https://github.com/bitcoin-global/global-electrum/releases/tag/4.0.2">Download Bitcoin Global wallet<i
-        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-                    </div>
-                    </center>
-
-                    <div data-aos-duration="500" data-aos="zoom-in-right" class="row pt-3 align-items-center">
-                        <div class="col-12 col-md-6 ml-auto order-md-1">
-                            <div class="nav flex-column" id="features-tabs" role="tablist" aria-orientation="vertical">
-                                <a class="nav-link active" id="tab-4" data-toggle="pill" href="#tab-content-4" role="tab" aria-controls="tab-4" aria-selected="false">
-                                    <span class="tab-heading"><span class="tab-icon mr-2"><i class="fas fa-cogs"></i></span>Testnet</span>
-                                    <span class="tab-heading-desc">Testnet starting block will be 1780318. </span>
-                                </a>
-                                <a class="nav-link active" id="tab-5" data-toggle="pill" href="#tab-content-5" role="tab" aria-controls="tab-5" aria-selected="false">
-                                    <span class="tab-heading"><span class="tab-icon mr-2"><i class="fas fa-play"></i></span>Mainnet launch</span>
-                                    <span class="tab-heading-desc">At block 638592 there will be a snapshot and at block 638593, Bitcoin Global miners will start creating blocks and this will cause a branching from the Bitcoin blockchain. The Bitcoin blockchain will continue on unaltered and at the same time Bitcoin Global will branch off. The new branch is a separate blockchain with the same transaction history as Bitcoin Core up until the hard fork, which then diverges from it.  As a result of this process the Bitcoin Global is created.</span>
-                                </a>
-                                <a class="nav-link active" id="tab-5" data-toggle="pill" href="#tab-content-5" role="tab" aria-controls="tab-5" aria-selected="false">
-                                    <span class="tab-heading"><span class="tab-icon mr-2"><i class="fas fa-flag"></i></span>How can I get Bitcoin Global?</span>
-                                    <span class="tab-heading-desc">All Bitcoin holders who had BTC at the time of the block 638592 will receive Bitcoin Global on the rate of 1 BTC = 1 Bitcoin Global (If you have 18 BTC you will receive 18 Bitcoin Global).  If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Global. All transactions after the split are completely separate between Bitcoin and Bitcoin Global. This means that any Bitcoin acquired after the split does not include any Bitcoin Global, and any Bitcoin Global does not include any Bitcoin. Some wallets may offer you direct access to your Bitcoin Global, while others may probably ask you to take additional technical steps.  Verified wallets that support BTC and Bitcoin Global side-by-side will be listed here.  </span>
-                                </a>
-                            </div>
-                            <!--//nav-->
-                        </div>
-                        <!--//col-3-->
-                        <div class="col-12 col-md-6 text-center align-self-center">
-                            <img class="img-fluid col-6 col-md-9 py-5" src="assets/images/models/end.png" alt="">
-                        </div>
-                        <!--//col-9-->
-                    </div>
             </div>
-            <!--container-->
-            </section>
-            <!--//delivery-section-->
+            <!--//row-->
+        </div>
 
-            <section class="how-to-section data-section py-4">
-                <div class="container">
-                    <!-- <div class="row">
-                            <div data-aos-duration="500" data-aos="zoom-in-up" class="item col-12 col-md-4">
-                                <div class="item-inner rounded p-0">
-                                    <div class="icon-holder text-center mx-auto mb-3">
-                                        <i class="fas fa-users"></i>
-                                    </div>-->
-                    <!--//icon-holder
-                                    <h5 class="mb-3 text-center">
-                                        12<br>
-                                        <span>Coders</span>
-                                    </h5>
-                                </div>-->
-                    <!--//item-inner
-                            </div>-->
-                    <!--//item
-
-                            <div data-aos-duration="500" data-aos="zoom-in-up" class="item col-12 col-md-4">
-                                <div class="item-inner rounded p-0">
-                                    <div class="icon-holder text-center mx-auto mb-3">
-                                        <i class="fas fa-stopwatch"></i>
-                                    </div>-->
-                    <!--//icon-holder
-                                    <h5 class="mb-3 text-center">
-                                        600 Hours<br>
-                                        <span>Dev Capacity</span>
-                                    </h5>
-                                </div>-->
-                    <!--//item-inner
-                            </div>-->
-                    <!--//item
-
-                            <div data-aos-duration="500" data-aos="zoom-in-up" class="item col-12 col-md-4">
-                                <div class="item-inner rounded p-0">
-                                    <div class="icon-holder text-center mx-auto mb-3">
-                                        <i class="fas fa-check"></i>
-                                    </div>-->
-                    <!--//icon-holder
-                                    <h5 class="mb-3 text-center">
-                                        2<br>
-                                        <span>Projects</span>
-                                    </h5>
-                                </div>-->
-                    <!--//item-inner
-                            </div>-->
-                    <!--//item
-
-                        </div>-->
-                    <!--//row
-                    </div>-->
-
-            </section>
-
-            <center>
-                <div class="cta-btns mb-lg-3">
-                    <a class="btn btn-primary mr-2 mb-3" href="https://github.com/bitcoin-global/global-miner">Bitcoin Global miner<i
-                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-                </div>
-            </center>
-            <br>
-            <center>
-                <div class="cta-btns mb-lg-3">
-                    <a class="btn btn-primary mr-2 mb-3" href="https://github.com/bitcoin-global/global-p2pool">Bitcoin Global mining pool<i
-                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-                </div>
-            </center>
-
-            <section data-aos="fade-up" id="projects" class="projects-section py-5">
-                <div class="container text-center">
-                    <h3 class="mb-2 text-center font-weight-bold section-title">Our Team</h3>
-                    <div class="mb-5 text-center section-intro">Blockchain veterans</div>
-                    <div class="projects-carousel pt-4 owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="item-inner rounded shadow-sm demblock">
-
-                                <!--//media-->
-
-                                <div class="quote-holder text-left">
-                                    <img class="img-fluid col-12" src="assets/images/ramiz.png" alt=""><br>
-                                </div>
-                                <div class="media source-holder">
-                                    <div class="media-body source-meta align-self-center ">
-                                        <div class="name h3">Ramiz Polic</div>
-                                        <div class="info"><a href="https://www.linkedin.com/in/ramizpolic/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></div>
-                                    </div>
-                                </div>
-                                <!--div class="quote-holder text-left">
-                            <blockquote class="quote-content mb-0">
-                                The DemBlock marketplace is an already fully functioning decentralized electronic marketplace with the possibility to offer notarized supplier data on the blockchain. Suppliers have the possibility to list their products on the DemBlock marketplace and
-                                to conduct corporate and sourcing verification on the blockchain. DemBlock is a blockchain enhanced further development of a classic DMSP - a digital multi-sided marketplace, which is an IT-enabled commercial network of
-                                suppliers, intermediaries and customers that facilitates transactions between these different entities.
-                            </blockquote>
-                        </div>
-                        <!--//quote-holder-->
-                            </div>
-                            <!--//item-inner-->
-                        </div>
-                        <!--//item-->
-                        <div class="item">
-                            <div class="item-inner rounded shadow-sm zaposljavanje">
-
-                                <!--//media-->
-
-                                <div class="quote-holder text-left">
-                                    <img class="img-fluid col-12" src="assets/images/nedim.jpg" alt=""><br>
-                                </div>
-                                <div class="media source-holder">
-                                    <div class="media-body source-meta align-self-center ">
-                                        <div class="name h3">Nedim Begic</div>
-                                        <div class="info"><a href="https://www.linkedin.com/in/nedim-begic-x/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></div>
-                                    </div>
-                                </div>
-                                <!--div class="quote-holder text-left">
-                                <blockquote class="quote-content mb-0">
-                                    The DemBlock marketplace is an already fully functioning decentralized electronic marketplace with the possibility to offer notarized supplier data on the blockchain. Suppliers have the possibility to list their products on the DemBlock marketplace and
-                                    to conduct corporate and sourcing verification on the blockchain. DemBlock is a blockchain enhanced further development of a classic DMSP - a digital multi-sided marketplace, which is an IT-enabled commercial network of
-                                    suppliers, intermediaries and customers that facilitates transactions between these different entities.
-                                </blockquote>
-                            </div>
-                            <!--//quote-holder-->
-                            </div>
-                            <!--//item-inner-->
-                        </div>
-                        <!--//item-->
-
-                    </div>
-                    <!--//projects-carousel-->
-                </div>
-                <!--//container-->
-            </section>
-
-            <!--//tech-section
-                <div class="container">
-                    <hr>
-                </div>-->
-
-            <!-- <section data-aos-duration="500" data-aos="fade-up" id="tech" class="tech-section theme-bg-primary pt-5 text-center">
-                    <div class="container">
-                        <h3 class="mb-2">Technology stack</h3>
-                        <div class="section-intro mb-3">Seamless Integrations</div>
-                        <div data-aos="fade-up" class="logos-row row mx-auto pt-5">
-                            <div class="item col-6 col-md-4 mb-3 mb-lg-0">
-                                <div class="item-inner">
-                                    <img src="assets/images/logos/logo-1.svg" alt="logo">
-                                </div>-->
-            <!--//item-inner
-                            </div>-->
-
-            <!--//item
-                <div class="item col-6 col-md-4 mb-3 mb-lg-0">
-                    <div class="item-inner">
-                        <img src="assets/images/logos/logo-3.svg" alt="logo">
-                    </div>-->
-            <!--//item-inner
-                </div>-->
-            <!--//item
-                <div class="item col-12 col-md-4 mb-3 mb-lg-0">
-                    <div class="item-inner">
-                        <img src="assets/images/logos/logo-4.svg" alt="logo">
-                    </div>-->
-            <!--//item-inner
-                </div>-->
-            <!--//item
-                </div>
-                </div>-->
-            <!--//container-->
     </section>
 
-    <!-- <section data-aos-duration="500" data-aos="fade-up" class="integration-section text-center py-5">
+    <section id="how-to" data-aos-duration="500" data-aos="fade-up"
+        class="tech-section theme-bg-primary pt-5 aos-init aos-animate space-side">
+        <div class="slant-top"></div>
+        <div class="container pt-5">
+            <h3 class="mb-2 text-center font-weight-bold section-title">How to start?</h3>
+            <div class="mb-5 text-center section-intro">Find out more about the project</div>
+            <div class="row pb-1">
+                <div class="col-12 order-2 order-sm-1 col-sm-7">
+                    <p class="section-intro">Bitcoin Global is developed with focus on a sustainable economic model for
+                        all chain participants,
+                        ensuring that decentralization and profitability are well maintained. </p><br>
+
+                    <a class="btn btn-primary mr-2"
+                        href="https://github.com/bitcoin-global/global-plane/blob/master/README.md" target="_blank">
+                        <i class="far fa-question-circle mr-2"></i> TUTORIALS
+                    </a>
+                    <a class="btn btn-secondary" href="assets/images/documentation.pdf" target="_blank">
+                        <i class="far fa-file-alt mr-2"></i> WHITEPAPER
+                    </a>
+                </div>
+                <div
+                    class="col-12 order-1 order-sm-2 pb-4 pb-sm-0 col-sm-5 ml-auto text-right d-flex flex-wrap align-items-top">
+                    <img height="150" class="hero-figure mx-auto" src="assets/images/eco-friendly.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 pt-5 mt-3 text-center">
+                <h5 class="pb-3">Join the Bitcoin Global community</h5>
+                <a class="btn btn-default large round" href="https://reddit.com/user/Bitcoin-Global" target="_blank">
+                    <ion-icon name="logo-reddit" role="img" class="hydrated" aria-label="logo reddit"></ion-icon> Reddit
+                </a>
+                <a class="btn btn-default large round" href="https://facebook.com/BitcoinGlobalGLOB/" target="_blank">
+                    <ion-icon name="logo-facebook" role="img" class="hydrated" aria-label="logo facebook"></ion-icon>
+                    Facebook
+                </a>
+                <a class="btn btn-default large round" href="https://t.me/BitcoinGlobalOffical" target="_blank">
+                    <ion-icon name="paper-plane" role="img" class="hydrated" aria-label="paper plane"></ion-icon>
+                    Telegram
+                </a>
+                <a class="btn btn-default large round" href="https://twitter.com/bitcoinglobalio" target="_blank">
+                    <ion-icon name="logo-twitter" role="img" class="hydrated" aria-label="logo reddit"></ion-icon>
+                    Twitter
+                </a>
+                <a class="btn btn-default large round" href="https://linkedin.com/company/bitcoin-global/"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin" role="img" class="hydrated" aria-label="logo reddit"></ion-icon>
+                    LinkedIn
+                </a>
+                <a class="btn btn-default large round" href="https://github.com/bitcoin-global" target="_blank">
+                    <ion-icon name="logo-github" role="img" class="hydrated" aria-label="logo reddit"></ion-icon> GitHub
+                </a>
+            </div>
+        </div>
+        <!--//container-->
+        <div class="slant"></div>
+    </section>
+
+    <!--
+    <section id="exchanges" data-aos-duration="500" data-aos="fade-up" class="integration-section text-center py-5">
+        <h3 class="mb-2 text-center font-weight-bold section-title">Exchange listings</h3>
+        <div class="mb-5 text-center section-intro">Bitcoin Global exchange listings are in pending state.</div>
         <div class="container">
-            <div class="integration-list tech-carousel owl-carousel owl-theme row justify-content-center text-center py-5">
+            <div
+                class="integration-list tech-carousel owl-carousel owl-theme row justify-content-center text-center py-5">
                 <div class="item"><img class="circle" src="assets/images/logos/js.png" alt=""></div>
                 <div class="item"><img class="circle" src="assets/images/logos/python.png" alt=""></div>
                 <div class="item"><img class="circle" src="assets/images/logos/java.png" alt=""></div>
                 <div class="item"><img class="circle" src="assets/images/logos/php-1-logo.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/csharp.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/cpp.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/ruby.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/golang.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/solidity.svg" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/tf.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/ks.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/concourse.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/jenkins.png" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/elk.svg" alt=""></div>
-                <div class="item"><img class="circle" src="assets/images/logos/prom.png" alt=""></div>
             </div>
-           
+
         </div>
     </section>-->
-    <!--//contact-section-->
-    <!--
-                <section data-aos-duration="500" data-aos="fade-up" id="contact" class="cta-section text-center py-5 theme-bg-dark position-relative">
-                    <div class="theme-bg-shapes-right"></div>
-                    <div class="theme-bg-shapes-left"></div>
-                    <div class="container">
-                        <form id="contact-form" class="contact-form col-12 mx-lg-auto">
-                            <h3 class="mb-2 text-white mb-3">Have a project for us?</h3>
-                            <div class="section-intro text-white mb-3 single-col-max mx-auto">Reach out and let us know</div>
-                            <div class="row pt-5">
-                                <div class="item col-12 col-md-7">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label class="sr-only" for="cname">Name</label>
-                                            <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label class="sr-only" for="cemail">Email</label>
-                                            <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="">
-                                        </div>
 
-                                        <div class="form-group col-12">
-                                            <label class="sr-only" for="cmessage">Your message</label>
-                                            <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required=""></textarea>
-                                        </div>
-                                        <div class="form-group col-12">
-                                            <button type="submit" class="btn btn-light py-2">Submit <i class="fas fa-arrow-alt-circle-right ml-2"></i></button>
-                                        </div>
-                                    </div>
+    <section class="mt-5 space--xxs" id="roadmap" data-section="roadmap">
+        <div class="container services">
+            <h3 class="mb-2 text-center font-weight-bold section-title">Roadmap</h3>
+            <div class="mb-5 text-center section-intro">Project implementation and planning overview</div>
+        </div>
+
+        <div class="container roadmap text-center">
+            <div class="row rm-legend">
+                <div class="col-sm-12 col-md-4 to-animate lg-complete">
+                    <p>
+                        <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                            aria-label="checkmark circle"></ion-icon> Complete
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 to-animate lg-underway">
+                    <p>
+                        <ion-icon class="underway hydrated" name="cog" role="img" aria-label="cog"></ion-icon> underway
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 to-animate lg-planned">
+                    <p>
+                        <ion-icon class="planned hydrated" name="add-circle" role="img" aria-label="add circle">
+                        </ion-icon> planned
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 to-animate rm-scaling">
+                    <h3 class="rm-col-title">
+                        scaling
+                    </h3>
+                    <ul class="rm-list list-unstyled p-2">
+                        <li>
+                            <h4>Smaller Block Size</h4>
+                            <p>(scaled down to 400 kB)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                        <li>
+                            <h4>UTXO Commitment</h4>
+                            <p>(blockchain pruning)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img" aria-label="cog">
+                            </ion-icon>
+                        </li>
+                        <li>
+                            <h4>Lightning Network</h4>
+                            <p>(second layer technology)</p>
+                            <ion-icon class="underway hydrated" name="cog" role="img" aria-label="checkmark circle">
+                            </ion-icon>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 to-animate rm-usability">
+                    <h3 class="rm-col-title">
+                        usability
+                    </h3>
+                    <ul class="rm-list list-unstyled p-2">
+                        <li>
+                            <h4>Global Address</h4>
+                            <p>(easier &amp; safer to user)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                        <li>
+                            <h4>Replay Protection</h4>
+                            <p>(hardware wallet security)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                        <li>
+                            <h4>Custom wallet</h4>
+                            <p>(thin clients for all devices)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img" aria-label="cog">
+                            </ion-icon>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 to-animate rm-extensibility">
+                    <h3 class="rm-col-title">
+                        extensibility
+                    </h3>
+                    <ul class="rm-list list-unstyled p-2">
+                        <li>
+                            <h4>Basic Opcodes</h4>
+                            <p>(control and security)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                        <li>
+                            <h4>Difficulty Algorithm</h4>
+                            <p>(readjust difficulty every block)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                        <li>
+                            <h4>SegWit Integration</h4>
+                            <p>(activated segregated witness)</p>
+                            <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                                aria-label="checkmark circle"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row rm-finale">
+                <div class="col-12 p-0 rm-complete">
+                    <h3 class="rm-col-title rm-col-title-last">
+                        <ion-icon class="complete hydrated" name="checkmark-circle" role="img"
+                            aria-label="checkmark circle"></ion-icon>
+                        Bitcoin Global Protocol
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="projects-section pb-5">
+        <div class="container text-center">
+            <h3 class="mb-2 text-center font-weight-bold section-title">Our Team</h3>
+            <div class="mb-5 text-center section-intro">Blockchain veterans</div>
+
+            <div
+                class="projects-carousel owl-carousel owl-theme align-items-center col-12 col-sm-12 col-md-8 col-lg-6 mx-auto">
+
+                <div class="item">
+                    <div class="item-inner rounded demblock">
+                        <!--//media-->
+                        <div class="quote-holder text-left">
+                            <img class="img-fluid col-12" src="assets/images/ramiz.png" alt=""><br>
+                        </div>
+                        <div class="media source-holder">
+                            <div class="media-body source-meta align-self-center ">
+                                <div class="name h3 ">Ramiz Polic</div>
+                                <div class="info">
+                                    <a href="https://linkedin.com/in/ramizpolic/" target="_blank"><i
+                                            class="fab fa-linkedin fa-fw"></i></a>
+                                    <a href="https://github.com/fhivemind/" target="_blank"><i
+                                            class="fab fa-github fa-fw"></i></a>
                                 </div>
-                                <div class="item col-12 col-md-4 ml-auto">
-                                   
-                                </div>
+
                             </div>
-
-                        </form>
+                        </div>
+                        <!--//quote-holder-->
                     </div>
-                </section>
--->
-    <footer class="footer">
+                    <!--//item-inner-->
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <div class="item-inner rounded zaposljavanje">
+                        <!--//media-->
+                        <div class="quote-holder text-left">
+                            <img class="img-fluid col-12" src="assets/images/nedim.jpg" alt=""><br>
+                        </div>
+                        <div class="media source-holder">
+                            <div class="media-body source-meta align-self-center ">
+                                <div class="name h3">Nedim Begic</div>
+                                <div class="info"><a href="https://linkedin.com/in/nedim-begic-x/" target="_blank"><i
+                                            class="fab fa-linkedin fa-fw"></i></a></div>
+                            </div>
+                        </div>
+                        <!--//quote-holder-->
+                    </div>
+                    <!--//item-inner-->
+                </div>
+            </div>
+            <!--//projects-carousel-->
+        </div>
+        <!--//container-->
+    </section>
+
+    <footer class="footer pd-5 mt-5">
         <div class="container pt-5 pb-4">
-            <div class="row align-items-center">
-                <div class="footer-col col-5">
-                    <h4 class="col-heading"></h4>
+            <div class="row align-items-start">
+                <div class="footer-col col-12 col-sm-6 col-md-4">
+                    <h4 class="col-heading">Bitcoin Global</h4>
                     <ul class="list-unstyled">
-
-                        </li>
-                        <li><a href="mailto:glob@bitcoin-global.io">Contact us by email</a>
-                        </li>
-                        <br>
-                        <li><b>Bitcoin Global</b> - All rights reserved </a>
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-to">How to?</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="assets/images/tou.pdf">Terms of use</a></li>
                     </ul>
-
                 </div>
-                <div class="footer-col col-7 text-right pb-5">
-
-                    <ul class="social-list list-unstyled pt-4 mb-0">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/BitcoinGlobalGLOB" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/bitcoin-global/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/bitcoinglobalio" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
-
-                        <li class="list-inline-item"><a href="https://www.reddit.com/user/Bitcoin-Global" target="_blank"><i class="fab fa-reddit"></i></a></li>
-                    </ul> <br>
-                    <ul class="social-list list-unstyled pt-4 mb-0">
-                        <li class="list-inline-item"><a href="https://www.instagram.com/bitcoinglobalglob/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://t.me/BitcoinGlobalOffical" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-                        <li class="list-inline-item"><a href="https://medium.com/@hi_54475" target="_blank"><i class="fab fa-medium"></i></a></li>
-                        <li class="list-inline-item"><a href="https://github.com/bitcoin-global " target="_blank"><i class="fab fa-github-square"></i></a></li>
+                <div class="footer-col col-12 col-sm-6 col-md-4">
+                    <h4 class="col-heading">Go to</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://mainnet.bitcoin-global.io" target="_blank">Explorer</a></li>
+                        <li><a href="https://github.com/bitcoin-global" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/bitcoin-global/global-plane" target="_blank">Tutorials</a></li>
+                        <li><a href="https://github.com/bitcoin-global/global-electrum" target="_blank">Wallet</a></li>
                     </ul>
-                    <!--//social-list-->
                 </div>
+
+                <div class="footer-col col-12 col-sm-12 col-md-4 text-right">
+                    <h4 class="col-heading">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:glob@bitcoin-global.io">glob@bitcoin-global.io</a></li>
+                    </ul>
+                    <ul class="social-list list-unstyled pt-4 mb-0">
+                        <li class="list-inline-item"><a href="https://facebook.com/BitcoinGlobalGLOB" target="_blank"><i
+                                    class="fab fa-facebook-f fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/company/bitcoin-global/"
+                                target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/bitcoinglobalio" target="_blank"><i
+                                    class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://reddit.com/user/Bitcoin-Global" target="_blank"><i
+                                    class="fab fa-reddit"></i></a></li>
+                    </ul>
+                    <ul class="social-list list-unstyled">
+                        <li class="list-inline-item"><a href="https://instagram.com/bitcoinglobalglob/"
+                                target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://t.me/BitcoinGlobalOffical" target="_blank"><i
+                                    class="fab fa-telegram-plane"></i></a></li>
+                        <li class="list-inline-item"><a href="https://medium.com/@hi_54475" target="_blank"><i
+                                    class="fab fa-medium"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/bitcoin-global " target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+
                 <!--//footer-col-->
             </div>
             <!--//row-->
+            <div class="row bottom_container">
+                <div class="col-8 col-sm-6">© 2020 Bitcoin Global. All rights reserved.</div>
+                <div class="col-4 col-sm-6 text-right"><img src="assets/images/ssl_secure.png" height="32"
+                        alt="SLL Secure"></div>
+            </div>
         </div>
         <!--//container-->
-        <center>
-            <div class="cta-btns mb-lg-3">
-                <a class="btn btn-primary mr-2 mb-3" href="assets/images/tou.pdf">Terms Of Use<i
-                                class="fas fa-arrow-alt-circle-right ml-2"></i></a></center>
-
-
     </footer>
 
     <!-- Javascript -->
@@ -616,7 +596,6 @@
     <script src="assets/plugins/popper.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/skrollr.min.js"></script>
-
 
     <!-- Page Specific JS -->
     <script src="assets/plugins/highlight.min.js"></script>
