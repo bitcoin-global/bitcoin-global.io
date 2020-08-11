@@ -1,6 +1,6 @@
 // Typewriter
 const instance = new Typewriter('#typewriter', {
-    strings: ['everyone', 'businesses', 'day-to-day users', 'miners'],
+    strings: ['everyone', 'businesses', 'individuals', 'miners', 'machines'],
     autoStart: true,
     loop: true
 });
